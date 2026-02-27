@@ -27,6 +27,7 @@ To compile and install the modern Iptux Plus interface:
 # Install GTK4, Libadwaita, and related build tools
 sudo apt-get update
 sudo apt-get install git libgtk-4-dev libadwaita-1-dev libglib2.0-dev libjsoncpp-dev g++ meson libsigc++-2.0-dev appstream gettext
+sudo ldconfig
 
 # Clone the repository
 git clone git://github.com/iptux-src/iptux.git
